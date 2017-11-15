@@ -7,8 +7,7 @@ public class MyPanelClass extends JPanel
 {
 	private static final long serialVersionUID = 7057541440811488699L;
 
-	public void paintComponent(Graphics g) 
-	{
+	public void paintComponent(Graphics g)	{
 		super.paintComponent(g);
 
 		// Compute interior coordinates
@@ -24,12 +23,20 @@ public class MyPanelClass extends JPanel
 		g.setColor(Color.BLACK);
 		g.fillRect(x1, y1, width+1, height+1);
 		
-		//Draw a border
-        g.setColor(Color.YELLOW);
-        g.drawRect(x1, y1, width, height);
-        
-        //Draw a new border
-        g.setColor(Color.RED);
-        g.drawRect(x1+5, y1+5, width-10, height-10);
+//		//Draw a border
+//        g.setColor(Color.YELLOW);
+//        g.drawRect(x1, y1, width, height);
+//        
+//        //Draw a new border
+//        g.setColor(Color.RED);
+//        g.drawRect(x1+5, y1+5, width-10, height-10);
+//        
+//        //Draw a Line
+//        g.setColor(Color.WHITE);
+//        g.drawLine(x1, y1, x2, y2);
+		  
+		  //Draw a Oval
+		  g.setColor(Color.GREEN);
+          g.fillOval(width/2-25,height/2-25, 55,55);
 	}
 }
