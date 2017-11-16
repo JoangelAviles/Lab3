@@ -4,8 +4,8 @@ public class Lab3Exercises
 {
 	public static void main(String[] args) 
 	{
-		JFrame myFrame = new JFrame("Joangel");
-		myFrame.setSize(200, 200);
+		JFrame myFrame = new JFrame("Joangel M. Avilés Reyes");
+		myFrame.setSize(300,200);
 		
 		MyPanelClass myPanel = new MyPanelClass();
         myFrame.getContentPane().add(myPanel); 
